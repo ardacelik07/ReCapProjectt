@@ -14,7 +14,7 @@ namespace ConsoleIU2
         {
             ICarManager carManager = new ICarManager(new EntityFrameworkCarDal());
 
-          IBrandManager brandManager = new IBrandManager(new IEntityFrameworkBrandDal());
+          IBrandManager brandManager = new IBrandManager(new IEntityFrameworkBrandDal())
 
 
 
